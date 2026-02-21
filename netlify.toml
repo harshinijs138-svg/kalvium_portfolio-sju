@@ -1,0 +1,6 @@
+# Serve static files first, then fallback to index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false

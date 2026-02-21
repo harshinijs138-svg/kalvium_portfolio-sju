@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/jpg" href="./public/kalvium-logo.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kalvium Squad Portfolio | St. Joseph's University</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta property="og:image" content="./public/kalvium-logo.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="./public/kalvium-logo.jpg">
+</head>
+  <body>
+    <div id="welcome-screen">
+      <div class="welcome-content">
+        <img src="./public/kalvium-logo.jpg" alt="kalvium" class="welcome-logo">
+        <h1 class="welcome-text">Welcome to kalvium</h1>
+      </div>
+    </div>
+
+    <div id="loading-bar"></div>
+
+    <nav id="navbar" class="navbar">
+      <div class="nav-content">
+        <div class="nav-left">
+          <img src="./public/SJU-NEW-LOGO-HEADER.png" alt="St. Joseph's University" class="nav-logo">
+          <!-- <span class="nav-title">St. Joseph's University</span> -->
+        </div>
+        <div class="nav-right">
+          <button id="dark-mode-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+            <span class="sun-icon">☀️</span>
+            <span class="moon-icon">🌙</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section id="hero" class="hero-section">
+        <img src="./public/banner.png" alt="kalvium Squad Portfolio" class="hero-banner">
+      </section>
+
+      <section id="about" class="about-section section-padding">
+        <div class="container">
+          <h2 class="section-title">About kalvium</h2>
+          <p class="about-text">
+            kalvium CSE students of St. Joseph's University focus on innovation, collaboration, and building real-world technology solutions that create social impact.
+          </p>
+        </div>
+      </section>
+
+      <section id="squad-overview" class="squad-section section-padding">
+        <div class="container">
+          <h2 class="section-title">Our Squads</h2>
+          <div class="squad-cards">
+            <div class="squad-card">
+              <div class="squad-icon-circle">
+                <i class="fas fa-users"></i>
+              </div>
+              <div class="squad-label">Squad 138</div>
+              <div class="squad-sublabel">Computer Science Engineering</div>
+            </div>
+            <div class="squad-card">
+              <div class="squad-icon-circle">
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="squad-label">Squad 139</div>
+              <div class="squad-sublabel">Computer Science Engineering</div>
+            </div>
+            <div class="squad-card highlight">
+              <div class="squad-icon-circle">
+                <i class="fas fa-trophy"></i>
+              </div>
+              <div class="squad-label">kalvium</div>
+              <div class="squad-sublabel">St. Joseph's University</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="students" class="students-section section-padding">
+        <div class="container">
+          <h2 class="section-title">Meet Our Students</h2>
+
+          <div class="search-filter-container">
+            <input
+              type="text"
+              id="search-box"
+              class="search-box"
+              placeholder="Search by name..."
+            >
+
+            <div class="filter-buttons">
+              <button class="filter-btn active" data-filter="all">All</button>
+              <button class="filter-btn" data-filter="138">Squad 138</button>
+              <button class="filter-btn" data-filter="139">Squad 139</button>
+              <button class="filter-btn" data-filter="mentor">Mentors</button>
+            </div>
+          </div>
+
+          <div id="students-grid" class="students-grid"></div>
+        </div>
+      </section>
+
+      <section id="carousel" class="carousel-section section-padding">
+        <div class="container">
+          <h2 class="section-title">Our Core Values</h2>
+          <div class="carousel-wrapper">
+            <div class="carousel-track">
+              <div class="value-card">
+                <div class="value-icon-wrapper">
+                  <div class="value-icon">💡</div>
+                </div>
+                <h3 class="value-title">Innovation</h3>
+                <p class="value-description">Driving creative solutions and breakthrough ideas</p>
+              </div>
+              <div class="value-card">
+                <div class="value-icon-wrapper">
+                  <div class="value-icon">🤝</div>
+                </div>
+                <h3 class="value-title">Collaboration</h3>
+                <p class="value-description">Building together as one unified team</p>
+              </div>
+              <div class="value-card">
+                <div class="value-icon-wrapper">
+                  <div class="value-icon">💻</div>
+                </div>
+                <h3 class="value-title">Technology</h3>
+                <p class="value-description">Mastering modern tools and frameworks</p>
+              </div>
+              <div class="value-card">
+                <div class="value-icon-wrapper">
+                  <div class="value-icon">🎯</div>
+                </div>
+                <h3 class="value-title">Excellence</h3>
+                <p class="value-description">Striving for quality in everything we do</p>
+              </div>
+              <div class="value-card">
+                <div class="value-icon-wrapper">
+                  <div class="value-icon">🚀</div>
+                </div>
+                <h3 class="value-title">Growth</h3>
+                <p class="value-description">Continuous learning and improvement</p>
+              </div>
+              <div class="value-card">
+                <div class="value-icon-wrapper">
+                  <div class="value-icon">🌟</div>
+                </div>
+                <h3 class="value-title">Impact</h3>
+                <p class="value-description">Creating meaningful change in society</p>
+              </div>
+              <div class="value-card">
+                <div class="value-icon-wrapper">
+                  <div class="value-icon">💡</div>
+                </div>
+                <h3 class="value-title">Innovation</h3>
+                <p class="value-description">Driving creative solutions and breakthrough ideas</p>
+              </div>
+              <div class="value-card">
+                <div class="value-icon-wrapper">
+                  <div class="value-icon">🤝</div>
+                </div>
+                <h3 class="value-title">Collaboration</h3>
+                <p class="value-description">Building together as one unified team</p>
+              </div>
+              <div class="value-card">
+                <div class="value-icon-wrapper">
+                  <div class="value-icon">💻</div>
+                </div>
+                <h3 class="value-title">Technology</h3>
+                <p class="value-description">Mastering modern tools and frameworks</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2026 St. Joseph's University</p>
+          <p>Harshini.J</p>
+          <p>All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <div id="modal" class="modal">
+      <div class="modal-overlay"></div>
+      <div class="modal-content">
+        <button class="modal-close">&times;</button>
+        <div class="modal-body">
+          <div class="modal-avatar"></div>
+          <h2 class="modal-name"></h2>
+          <p class="modal-department">B.Tech CSE</p>
+          <p class="modal-email"></p>
+          <p class="modal-bio"></p>
+          <div class="modal-links"></div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
